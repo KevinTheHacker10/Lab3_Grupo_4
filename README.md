@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# 🛒 App de Registro y Gestión de Productos
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil desarrollada con **React Native (Expo)** y **Firebase**, que permite a los usuarios registrarse, iniciar sesión y administrar un inventario de productos de forma intuitiva.
 
-## Get started
+## 🚀 Funcionalidades
 
-1. Install dependencies
+- Registro e inicio de sesión con Firebase Auth
+- Crear, editar y eliminar productos
+- Almacenamiento en Firebase Firestore
+- Imagen de fondo y diseño responsive
+- Scroll habilitado para uso en web y dispositivos móviles
 
-   ```bash
+## 🛠️ Tecnologías
+
+- React Native (Expo)
+- Firebase Authentication
+- Firebase Firestore
+- TypeScript
+- Expo Router
+
+## 📦 Instalación y ejecución
+
+1. Clona este repositorio:
+   git clone https://github.com/TU-USUARIO/TU-REPO.git
+   cd TU-REPO
+
+2. Instala las dependencias:
    npm install
-   ```
 
-2. Start the app
+3. Asegúrate de tener tu archivo `firebaseConfig.ts` con tu configuración de Firebase.
 
-   ```bash
+4. Inicia la app:
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+## 📁 Estructura básica
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+├── app/
+│   ├── index.tsx        # Login
+│   ├── register.tsx     # Registro
+│   ├── Products.tsx     # Gestión de productos
+│
+├── assets/              # Imágenes
+├── firebaseConfig.ts    # Configuración de Firebase
+├── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## ✅ Requisitos
 
-## Learn more
+* Node.js
+* Expo CLI (`npm install -g expo-cli`)
+* Cuenta en Firebase con un proyecto y Firestore habilitado
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+¡Contribuciones, estrellas ⭐ y forks son bienvenidos!
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```
