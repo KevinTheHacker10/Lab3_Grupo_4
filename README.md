@@ -21,7 +21,7 @@ Aplicación móvil desarrollada con **React Native (Expo)** y **Firebase**, que 
 ## 📦 Instalación y ejecución
 
 1. Clona este repositorio:
-   git clone https://github.com/TU-USUARIO/TU-REPO.git
+   git clone (https://github.com/KevinTheHacker10/Lab3_Grupo_4.git)
    cd TU-REPO
 
 2. Instala las dependencias:
